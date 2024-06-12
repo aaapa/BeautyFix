@@ -1,0 +1,15 @@
+.title {
+  color: var(--grey);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.688rem;
+}
+
+.title__mark {
+  padding: 6px;
+  white-space: nowrap;
+  color: var(--accent);
+  border-radius: 30px;
+  background-color: whitesmoke;
+}

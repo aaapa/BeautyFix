@@ -1,0 +1,155 @@
+.footer {
+  width: 100%;
+  display: flex;
+  color: whitesmoke;
+  padding: var(--padding);
+  align-items: center;
+  justify-content: center;
+  background-color: #3e4043;
+}
+
+.footer__body {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.footer__info {
+  display: flex;
+  color: #3e4043;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding: var(--padding);
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.footer__info-body {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__info-link {
+  color: #3e4043;
+  text-decoration: underline;
+}
+
+@media (hover:hover) {
+  .footer__info-link:hover {
+    opacity: var(--opacity);
+  }
+}
+
+.footer__info-link:active {
+  scale: var(--scale);
+}
+
+.footer__info-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer__info-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 2rem;
+  color: var(--accent);
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: #d8dde5;
+}
+
+.footer__info-column {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer__info-title {
+  color: #1f1f1f;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.footer__top {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-block-end: 20px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.footer__address {
+  width: 100%;
+  font-size: 1.125rem;
+  font-style: normal;
+}
+
+.footer__bottom {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__link {
+  color: whitesmoke;
+  font-size: 1.125rem;
+  display: inline-block;
+}
+
+@media (hover:hover) {
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__link:active {
+  scale: var(--scale);
+}
+
+.footer__contacts {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer__contacts-text {
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .footer__info {
+    display: none;
+  }
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+ <html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/css/base.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyFix - главная</title>
+  </head>
+  <body data-simplebar>
+   <div class="wrapper">
+    <main class="main">
+     <section class="about fullscreen">
+      <header class="about__header header">
+        <div class="header__body container">
+          <a class="logo" href="index.html">BeautyFix</a>
+          <div class="header__menu">
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__list-item">
+                  <span class="header__link active">Главная</span>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="#news">События</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__socials socials" data-da=".header__menu, 992, 1">
+           <div class="socials__body">
+            <nav class="socials__nav">
+             <ul class="socials__list">
+               <li class="socials__list-item">
+                 <a class="socials__link" href="#!" aria-label="telegram" data-tippy-content="telegram">
+                   <img class="icon-telegram" src="src/imgs/icons/telegram.webp" alt="telegram">
+                 </a>
+               </li>
+               <li class="socials__list-item">
+                 <a class="socials__link" href="#!" aria-label="whatsapp" data-tippy-content="whatsapp">
+                   <img class="icon-whatsapp" src="src/imgs/icons/whatsapp.webp" alt="whatsapp">
+                 </a>
+               </li>
+               <li class="socials__list-item">
+                 <a class="socials__link" href="#!" aria-label="Вконтакте" data-tippy-content="Вконтакте">
+                   <img class="icon-vk" src="src/imgs/icons/vk.webp" alt="Вконтакте">
+                 </a>
+               </li>
+             </ul>
+            </nav>           
+           </div>
+          </div>
+          <button class="header__menu-button">
+            <span class="header__menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+      </header>
+      <div class="about__body container">
+       <div class="about__content">
+        <header class="about__header">
+         <h1 class="about__title title">
+           <span>Бережно</span> <span class="about__title-mark title__mark">заботимся</span> <span class="title__mark">о здоровье</span> <span>спортсменов</span> <span>и</span> <span>активных</span> <span>людей</span> 
+         </h1> 
+        </header>
+        <footer class="about__footer">
+          <a class="button" href="#!">Узнать больше</a>
+          <a class="button" href="tel:+79955367699" aria-label="Нажмите, чтобы позвонить на номер" data-tippy-content="+7 995 536-76-99">
+           <span class="icon-telephone"></span>
+          </a>
+        </footer>
+       </div>
+      </div>
+      <span></span>
+     </section>
+     <section class="review">
+      <div class="review__body">
+       <h2 class="review__title title">Здоровье начинается <span class="title__mark">здесь</span></h2>
+       <div class="review__cards">
+        <div class="review__card">
+          <span>
+            <b>IV-терапия</b> (внутривенные инъекции) – инфузионная витаминотерапия,
+            основанная на восполнении дефицита микронутриентов 
+            (витаминов, макро и микроэлементов) для поддержания
+            здоровья и замедления процессов старения. Развитие
+            многих заболеваний кроется в хроническом дефиците
+            питательных веществ, а самый быстрый способ
+            их восполнить – это ввести внутривенно.
+          </span>
+        </div>
+        <div class="review__card">
+          <img class="review__card-image" src="src/imgs/review/review--1.webp" alt="">
+         </div>
+       </div>
+      </div>
+     </section>
+     <section class="services">
+      <div class="services__body container">
+       <h2 class="title">Наши <span class="title__mark">услуги</span></h2>
+       <ul class="services__list">
+        <li>
+          <a class="services__card" href="pages/health.html">
+           <img class="services__card-icon" src="src/imgs/services/services--1.svg" alt="">
+           <span>Здоровье</span>
+          </a>
+        </li>
+        <li>
+          <a class="services__card" href="pages/beauty.html">
+           <img class="services__card-icon" src="src/imgs/services/services--2.svg" alt="">
+           <span>Красота</span>
+          </a>
+        </li>
+        <li>
+          <a class="services__card" href="pages/detox.html">
+           <img class="services__card-icon" src="src/imgs/services/services--3.svg" alt="">
+           <span>Детокс</span>
+          </a>
+        </li>
+        <li>
+          <a class="services__card" href="pages/sport.html">
+           <img class="services__card-icon" src="src/imgs/services/services--4.svg" alt="">
+           <span>Спорт</span>
+          </a>
+        </li>
+       </ul>
+      </div>
+     </section>
+    <section id="news" class="news">
+     <div class="news__body container">
+      <h2 class="title">Новости</h2>
+      <div class="news__list main-page">
+       <div class="swiper-wrapper">
+        <div class="swiper-slide">
+         <article class="news__card all-news">
+          <span class="news__card-text">Все новости</span>
+          <a class="news__card-link" href="pages/all-news.html"></a>
+         </article>
+        </div>
+       </div>
+       <div class="news__list-pagination"></div>
+      </div>
+     </div>
+    </section>
+    <address id="contacts" class="address">
+      <div class="address__body container">
+       <h2 class="title">Наш адрес</h2>
+       <div class="address__map">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5544081fdd4b251af933f841d38052848071125d3f446e4c4bc0222d1dff736c&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+       </div>
+      </div>
+    </address>
+    </main>
+    <footer class="footer">
+     <div class="footer__body container">
+      <address class="footer__info">
+       <div class="footer__info-body">
+        <div class="footer__info-row">
+         <span class="footer__info-icon icon-telephone"></span>
+         <div class="footer__info-column">
+          <h6 class="footer__info-title">Телефон:</h6>
+          <a class="footer__info-link" href="tel:+79955367699">+7 995 536-76-99</a>
+         </div>
+        </div>
+        <div class="footer__info-row">
+         <span class="footer__info-icon icon-map-label"></span>
+         <div class="footer__info-column">
+           <h6 class="footer__info-title">Адрес:</h6>
+           <span>Москва, бульвар Бескудниковский, <br> дом 19, корпус 2, кв 74, <br> организация ООО «Нарколог плюс»</span>
+         </div>
+        </div>
+        <div class="footer__info-row">
+         <span class="footer__info-icon icon-clock"></span>
+         <div class="footer__info-column">
+          <h6 class="footer__info-title">Часы работы:</h6>
+          <span>24/7</span>
+         </div>
+        </div>
+        <div class="footer__info-row">
+         <span class="footer__info-icon icon-email"></span>
+         <div class="footer__info-column">
+          <h6 class="footer__info-title">Почта:</h6>
+          <a class="footer__info-link" href="mailto:trezvostin@bk.ru">trezvostin@bk.ru</a>
+         </div>
+        </div>        
+        </div>
+      </address>
+      <div class="footer__top">
+       <a class="logo" href="index.html">BeautyFix</a>
+       <address class="footer__address">
+         <span>
+          Лицензия :ЛО-77-01-015729/0021189, адрес : Москва, бульвар Бескудниковский, дом 19, корпус 2, кв 74, организация ООО «Нарколог плюс»
+         </span>
+       </address>        
+      </div>
+      <div class="footer__bottom">
+       <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__link" href="index.html">Главная</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="#news">События</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+       </nav>
+       <div class="footer__contacts">
+        <a class="footer__link footer__contacts-text" href="mailto:trezvostin@bk.ru">trezvostin@bk.ru</a>
+        <a class="footer__link footer__contacts-text" href="tel:+79955367699">+7 995 536-76-99</a>
+       </div>
+      </div>
+     </div>
+    </footer>
+   </div>
+   <script src="src/libraries/simplebar/jquery-3.7.1.min.js"></script>
+   <script src="src/libraries/simplebar/simplebar.min.js"></script>
+   <script src="src/libraries/tippy/popper.js"></script>
+   <script src="src/libraries/tippy/tippy.js"></script>
+   <script src="src/libraries/swiper/swiper-bundle.min.js"></script>
+   <script type="module" src="src/main.js"></script>
+  </body>
+</html>

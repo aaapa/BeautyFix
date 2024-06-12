@@ -1,0 +1,19 @@
+.logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  color: var(--accent);
+  position: relative;
+  z-index: 1;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+@media (hover:hover) {
+  .logo:hover {
+    opacity: var(--opacity);
+  }
+}
+
+.logo:active {
+  scale: var(--scale);
+}

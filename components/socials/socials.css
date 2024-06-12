@@ -1,0 +1,34 @@
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials__body {
+  display: flex;
+  align-items: center;
+}
+
+.socials__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.socials__list-item {
+  display: flex;
+  align-items: center;
+}
+
+.socials__link {
+  display: inline-block;
+}
+
+@media (hover:hover) {
+  .socials__link:hover {
+    opacity: var(--opacity);
+  }
+}
+
+.socials__link:active {
+  scale: var(--scale);
+}
